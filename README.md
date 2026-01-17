@@ -1,4 +1,3 @@
-"""
 Python Fundamentals Demo: HR Engagement & Turnover Risk
 Author: Antonique (Anna) Becker
 
@@ -14,12 +13,9 @@ The example uses a small, sample employee dataset to identify:
 
 This code is intentionally simple, self-contained, and easy to follow
 to showcase Python fundamentals in an HR analytics context.
-"""
 
-# --------------------------------------------------
 # Sample employee data stored in a dictionary
 # Each employee ID maps to a set of HR-related metrics
-# --------------------------------------------------
 
 employees = {
     "E001": {"department": "IT", "engagement": 4.5, "overtime": 0.1, "manager_satisfaction": 4.7},
@@ -29,16 +25,16 @@ employees = {
     "E005": {"department": "Finance", "engagement": 3.4, "overtime": 0.8, "manager_satisfaction": 3.1},
 }
 
-# --------------------------------------------------
+
 # Initialize variables to store results
-# --------------------------------------------------
+
 
 high_risk_employees = []     # Employees flagged as higher turnover risk
 low_engagement_count = 0     # Count of employees with low engagement
 
-# --------------------------------------------------
+
 # Loop through each employee and evaluate conditions
-# --------------------------------------------------
+
 
 for emp_id, data in employees.items():
     engagement = data["engagement"]
@@ -54,9 +50,8 @@ for emp_id, data in employees.items():
     if overtime > 0.5 and manager_sat < 3.2:
         high_risk_employees.append(emp_id)
 
-# --------------------------------------------------
 # Output summary results
-# --------------------------------------------------
+
 
 print("HR Engagement Summary")
 print("---------------------")
@@ -67,9 +62,9 @@ print("\nEmployees flagged as higher turnover risk:")
 for emp in high_risk_employees:
     print(f"- {emp}")
 
-# --------------------------------------------------
+
 # Department-level aggregation
-# --------------------------------------------------
+
 
 department_counts = {}
 
@@ -81,10 +76,10 @@ print("\nEmployees by department:")
 for dept, count in department_counts.items():
     print(f"{dept}: {count}")
 
-# --------------------------------------------------
+
 # Results Summary (Human-readable explanation)
-# --------------------------------------------------
-"""
+
+
 Results Summary:
 
 This script reviewed a small sample of five employees to show how basic
@@ -105,4 +100,4 @@ HR datasets.
 This example highlights how foundational Python skills—such as working
 with dictionaries, loops, and conditional statements—can be used to
 surface meaningful workforce insights in a clear and approachable way.
-"""
+
