@@ -1,7 +1,7 @@
 ![Banner_Image](Visuals/Python_HR_Demo.png)
 
 Python Fundamentals Demo: HR Engagement & Turnover Risk
-Author: Antonique (Anna) Becker
+Author: Antonique (Anna) Becker 
 
 Description:
 This script demonstrates foundational Python skills using a simple,
