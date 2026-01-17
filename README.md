@@ -1,3 +1,5 @@
+![Banner_Image](Visuals/Python_HR_Demo.png)
+
 Python Fundamentals Demo: HR Engagement & Turnover Risk
 Author: Antonique (Anna) Becker
 
