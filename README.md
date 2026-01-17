@@ -79,7 +79,7 @@ for dept, count in department_counts.items():
     print(f"{dept}: {count}")
 
 
-# Results Summary (Human-readable explanation)
+# Results Summary
 
 
 Results Summary:
