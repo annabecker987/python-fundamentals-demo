@@ -99,7 +99,7 @@ Operations, HR, and Finance. While the dataset is small and used only
 for demonstration, the same logic could scale to larger, real-world
 HR datasets.
 
-This example highlights how foundational Python skills—such as working
-with dictionaries, loops, and conditional statements—can be used to
+This example highlights how foundational Python skills, such as working
+with dictionaries, loops, and conditional statements can be used to
 surface meaningful workforce insights in a clear and approachable way.
 
